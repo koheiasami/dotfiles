@@ -12,9 +12,6 @@ syntax on
 "背景色黒
 colorscheme molokai
 
-"アンダーライン設定
-set cursorline
-
 "マウス操作有効
 set mouse=a
 
@@ -37,6 +34,9 @@ set shiftwidth=2 "自動インデントでずれる幅
 set softtabstop=2 "連続した空白に対してタブキーやバックスペースキーでカーソルが動く幅
 set autoindent "改行時に前の行のインデントを継続する
 set smartindent "改行時に入力された行の末尾に合わせて次の行のインデントを増減する
+
+set nobackup
+set noswapfile
 
 "####検索設定####
 "検索時に最後まで行ったら最初に戻る
